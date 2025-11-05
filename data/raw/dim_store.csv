@@ -1,0 +1,6 @@
+store_id,store_name,region,channel
+1,Central,Region A,retail
+2,Harbour,Region A,retail
+3,Web North,Region B,digital
+4,West Mall,Region C,retail
+5,Web East,Region C,digital

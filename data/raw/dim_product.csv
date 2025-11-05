@@ -1,0 +1,5 @@
+product_id,product_name,category,unit_price
+101,Daily Ticket,Lottery,3.0
+102,Weekly Max,Lottery,5.0
+201,Gift 25,Gift,25.0
+202,Gift 50,Gift,50.0

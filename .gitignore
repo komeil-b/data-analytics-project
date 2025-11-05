@@ -1,0 +1,12 @@
+__pycache__/
+.venv/
+env/
+venv/
+data/processed/*
+!data/processed/.gitkeep
+data/raw/*
+!data/raw/**
+data/external/*
+*.pbix
+.DS_Store
+Thumbs.db
