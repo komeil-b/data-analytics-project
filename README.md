@@ -1,5 +1,5 @@
 # Operations Analytics Project
-Small project to showcase my knowledge of SQL, Power BI, and Python for data generation and cleaning. It uses a SQL schema, and a Power BI dashboard to showcase the data. 
+Small project to showcase my knowledge of SQL, Power BI, and Python for data generation and cleaning. It uses a SQL schema and a Power BI dashboard to showcase the data. 
 
 ## Stack
 - Python, pandas, NumPy
@@ -15,3 +15,8 @@ Small project to showcase my knowledge of SQL, Power BI, and Python for data gen
 6. Connected Power BI Desktop to the processed CSVs and created relationships between fact and dimension tables.
 7. Created DAX measures for key KPIs: Total Sales, Total Customers, and Avg Basket Size.
 8. Designed a dashboard with line, bar, and pie charts, plus card visuals, plus slicers for date, region, channel, and product category.
+
+### Sample Dashboard
+![Dashboard Screenshot](docs/General%20Screenshot.png)
+
+Additional screenshots that highlight the option to select specific samples are available in the `docs/` folder.
