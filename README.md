@@ -1,15 +1,17 @@
-# Operations Analytics Starter
-
-A neutral, portfolio-ready project that demonstrates an end-to-end analytics workflow for an omni-channel retail style dataset. It includes Python data generation and cleaning, a simple SQL schema, and a Power BI dashboard outline.
+# Operations Analytics Project
+Small project to showcase my knowledge of SQL, Power BI, and Python for data generation and cleaning. It uses a SQL schema, and a Power BI dashboard to showcase the data. 
 
 ## Stack
-- Python for wrangling
-- SQL for dimensional modeling
-- Power BI for dashboards
+- Python, pandas, NumPy
+- MySQL Workbench
+- Power BI
 
-## Quick start
-1. `pip install -r requirements.txt`
-2. `python src/make_dataset.py`
-3. `python src/clean_transform.py`
-4. Load `sql/schema.sql` into MySQL or any RDBMS and import the processed CSVs.
-5. Build visuals in Power BI using `powerbi/measures_dax.md`.
+## What I Did:
+1. Generated a synthetic retail style dataset using a Python script to create raw CSVs for date, store, product, and transactions.
+2. Cleaned and standardized the data with a second Python script to produce analytics ready tables in a simple star schema.
+3. Built a relational model in MySQL Workbench using a schema file with fact and dimension tables.
+4. Imported the processed CSVs into MySQL tables and verified row counts for each table.
+5. Wrote SQL analysis queries to check data quality and produce summaries like monthly sales, sales by region, and sales by product.
+6. Connected Power BI Desktop to the processed CSVs and created relationships between fact and dimension tables.
+7. Created DAX measures for key KPIs: Total Sales, Total Customers, and Avg Basket Size.
+8. Designed a dashboard with line, bar, and pie charts, plus card visuals, plus slicers for date, region, channel, and product category.
